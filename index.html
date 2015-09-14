@@ -12,32 +12,21 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/customStyles.css">
     </head>
     <body class="home">
         <div id="header">
-            <div class="header RUALogoSmallScreen center">
-                <a href="index.html"><img src="images/RUAInsuranceGroup.png" alt="RUA Insurance Group" title="RUA Insurance Group"></a>
-            </div>
-
-            <div class="navigation">
+            <div class="container">
+                <a href="index.html"><img src="images/RUAInsuranceGroup.png" alt="RUA Insurance Group" title="RUA Insurance Group" width="90"></a>
+                <div class="navigation">
                     <div class="navigationBar">
-                        <div class="container">
-                            <ul class="nav navLeft">
-                            </ul><!-- /nav -->
-                            <ul class="nav navRight mobileNo">
-                                <li><a href="index.html#Why-RUA-Insurance-Group">Why RUA<br>Insurance Group?</a></li>
-                                <li><a href="index.html#What-We-Do">What<br>We Do</a></li>
-                                <li><a href="index.html#easy-to-Understand-plans">Easy to <br>Understand Plans</a></li>
-                                <li><a href="index.html#A-Message-from-the-President">A Message from<br>the President</a></li>
-                                <li><a href="index.html#contactUs">Contact Us <br>&nbsp;</a></li>
-                            </ul><!-- /nav -->
-                        </div><!-- /container -->
+                        <ul class="nav">
+                        </ul><!-- /nav -->
                     </div><!-- /navigationBar -->
-            </div><!-- /navigation -->
+                </div><!-- /navigation -->
+            </div><!-- /container -->
         </div><!-- #header -->
 
-        <div class="pageTitle">
+        <div class="pageTitle ptWithBg">
             <ul class="slides">
                 <li class="orangeSlide">
                     <div class="containerNarrow">
@@ -151,8 +140,7 @@
 
         <!-- LoadIncludes -->
         <script>
-            $( ".navLeft" ).load( "includes/nav.html" );
-            //$( ".navRight" ).load( "includes/navRight.html" );
+            $( ".nav" ).load( "includes/nav.html" );
             $( "#footer" ).load( "includes/footer.html" );
         </script>
         <script src="js/main.js"></script>
